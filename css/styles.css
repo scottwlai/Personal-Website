@@ -1,4 +1,10 @@
 /* Global */
+body {
+    font-family: 'Raleway', sans-serif;
+}
+h1, h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
 
 /* About */
 
