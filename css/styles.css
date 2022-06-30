@@ -20,6 +20,9 @@ h1, h2 {
 /* About */
 
 /* Education */
+.education-item .coursework {
+    column-count: 3;
+}
 
 /* Certifications */
 
