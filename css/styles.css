@@ -6,6 +6,11 @@ body {
 h1, h2 {
     font-family: 'Ubuntu', sans-serif;
 }
+.content-wrap {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+}
 
 /* About */
 
