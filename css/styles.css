@@ -11,6 +11,9 @@ body {
 h1, h2 {
     font-family: 'Ubuntu', sans-serif;
 }
+ul {
+    list-style-type: none;
+}
 .content-wrap {
     max-width: 800px;
     width: 80%;
@@ -28,6 +31,9 @@ h1, h2 {
 /* Certifications */
 
 /* Skills */
+.skill-item ul {
+    list-style-type: disc;
+}
 
 /* Experience */
 
