@@ -27,7 +27,7 @@ ul {
 /* About */
 
 /* Education */
-.education-item .coursework {
+.coursework {
     column-count: 3;
     column-gap: 1.5em;
 }
@@ -35,7 +35,7 @@ ul {
 /* Certifications */
 
 /* Skills */
-.skill-item ul {
+.skills ul {
     list-style-type: disc;
 }
 
