@@ -11,6 +11,18 @@ html {
 h1, h2 {
     font-family: "Ubuntu", sans-serif;
 }
+h4 {
+    font-size: 1.1rem;
+}
+h3 {
+    font-size: 1.3rem;
+}
+h2 {
+    font-size: 1.8rem;
+}
+h1 {
+    font-size: 3rem;
+}
 ul {
     list-style-type: none;
 }
