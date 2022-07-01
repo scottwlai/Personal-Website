@@ -46,6 +46,9 @@ img {
 }
 
 /* About */
+header {
+    text-align: center;
+}
 
 /* Education */
 .education .content-item {
@@ -169,6 +172,9 @@ img {
 /* Honors */
 
 /* Contact */
+footer {
+    text-align: center;
+}
 footer ul {
     display: flex;
     justify-content: space-evenly;
