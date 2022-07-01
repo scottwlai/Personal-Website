@@ -77,8 +77,24 @@ img {
 }
 
 /* Certifications */
-.certifications img {
+.certifications .content-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto 1fr;
+    column-gap: 5%;
+}
+.certifications .content-item img {
     border-radius: 0;
+    grid-area: 1 / 1 / 4 / 2;
+}
+.certifications .content-item .title {
+    grid-area: 1 / 2 / 2 / 3;
+}
+.certifications .content-item .subtitle {
+    grid-area: 2 / 2 / 3 / 3;
+}
+.certifications .content-item .date {
+    grid-area: 3 / 2 / 4 / 3;
 }
 
 /* Skills */
