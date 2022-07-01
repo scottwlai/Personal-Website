@@ -115,6 +115,30 @@ img {
 }
 
 /* Experience */
+.experience .content-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto auto auto 1fr;
+    column-gap: 5%;
+}
+.experience .content-item img {
+    grid-area: 1 / 1 / 6 / 2;
+}
+.experience .content-item .title {
+    grid-area: 1 / 2 / 2 / 3;
+}
+.experience .content-item .subtitle {
+    grid-area: 2 / 2 / 3 / 3;
+}
+.experience .content-item .date {
+    grid-area: 3 / 2 / 4 / 3;
+}
+.experience .content-item .location {
+    grid-area: 4 / 2 / 5 / 3;
+}
+.experience .content-item .notes {
+    grid-area: 5 / 2 / 6 / 3;
+}
 
 /* Extracurriculars */
 
