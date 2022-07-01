@@ -53,7 +53,7 @@ ul {
 
 /* Skills */
 .skills ul {
-    list-style-type: disc;
+    list-style: disc inside;
 }
 .skills .content-item {
     border-bottom: none;
