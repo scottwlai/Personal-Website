@@ -55,6 +55,9 @@ ul {
 .skills ul {
     list-style-type: disc;
 }
+.skills .content-item {
+    border-bottom: none;
+}
 
 /* Experience */
 
