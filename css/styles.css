@@ -26,6 +26,9 @@ h4 {
 ul {
     list-style-type: none;
 }
+img {
+    border-radius: 15px;
+}
 .content-wrap {
     max-width: 800px;
     width: 80%;
@@ -50,6 +53,9 @@ ul {
 }
 
 /* Certifications */
+.certifications img {
+    border-radius: 0;
+}
 
 /* Skills */
 .skills ul {
