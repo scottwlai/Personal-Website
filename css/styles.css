@@ -83,7 +83,7 @@ header {
     column-gap: 1.5em;
 }
 .coursework li {
-    margin: 0;
+    margin-left: 0;
 }
 
 /* Certifications ******************************/
