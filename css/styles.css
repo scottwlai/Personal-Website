@@ -55,6 +55,9 @@ img {
     padding-bottom: 0;
     border-bottom: none;
 }
+.subtitle {
+    font-style: italic;
+}
 .description {
     margin-top: 0.6rem;
 }
