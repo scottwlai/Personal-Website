@@ -83,21 +83,10 @@ header {
 .certifications .content-item {
     display: grid;
     grid-template-columns: auto 1fr;
-    grid-template-rows: auto auto 1fr;
     column-gap: 5%;
 }
 .certifications .content-item img {
     border-radius: 0;
-    grid-area: 1 / 1 / 4 / 2;
-}
-.certifications .content-item .title {
-    grid-area: 1 / 2 / 2 / 3;
-}
-.certifications .content-item .subtitle {
-    grid-area: 2 / 2 / 3 / 3;
-}
-.certifications .content-item .date {
-    grid-area: 3 / 2 / 4 / 3;
 }
 
 /* Skills */
@@ -107,11 +96,7 @@ header {
 .skills .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
     column-gap: 10%;
-}
-.skills .container h2 {
-    grid-area: 1 / 1 / 1 / 3;
 }
 .skills .container .content-item {
     border-bottom: none;
@@ -121,52 +106,14 @@ header {
 .experience .content-item {
     display: grid;
     grid-template-columns: auto 1fr;
-    grid-template-rows: auto auto auto auto 1fr;
     column-gap: 5%;
-}
-.experience .content-item img {
-    grid-area: 1 / 1 / 6 / 2;
-}
-.experience .content-item .title {
-    grid-area: 1 / 2 / 2 / 3;
-}
-.experience .content-item .subtitle {
-    grid-area: 2 / 2 / 3 / 3;
-}
-.experience .content-item .date {
-    grid-area: 3 / 2 / 4 / 3;
-}
-.experience .content-item .location {
-    grid-area: 4 / 2 / 5 / 3;
-}
-.experience .content-item .notes {
-    grid-area: 5 / 2 / 6 / 3;
 }
 
 /* Extracurriculars */
 .extracurriculars .content-item {
     display: grid;
     grid-template-columns: auto 1fr;
-    grid-template-rows: auto auto auto auto 1fr;
     column-gap: 5%;
-}
-.extracurriculars .content-item img {
-    grid-area: 1 / 1 / 6 / 2;
-}
-.extracurriculars .content-item .title {
-    grid-area: 1 / 2 / 2 / 3;
-}
-.extracurriculars .content-item .subtitle {
-    grid-area: 2 / 2 / 3 / 3;
-}
-.extracurriculars .content-item .date {
-    grid-area: 3 / 2 / 4 / 3;
-}
-.extracurriculars .content-item .location {
-    grid-area: 4 / 2 / 5 / 3;
-}
-.extracurriculars .content-item .notes {
-    grid-area: 5 / 2 / 6 / 3;
 }
 
 /* Honors */
