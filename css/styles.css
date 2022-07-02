@@ -65,29 +65,23 @@ img {
 }
 
 /* About ***************************************/
-header {
-    text-align: center;
-}
 header p {
     margin-top: 0.5rem;
     line-height: 1.4;
 }
-header .introduction {
-    text-align: start;
-}
-header .introduction .primary {
+header .primary {
     font-family: "Ubuntu", sans-serif;
     font-size: 4rem;
 }
-header .introduction .secondary {
+header .secondary {
     font-family: "Ubuntu", sans-serif;
     font-size: 2rem;
 }
-header .introduction .tertiary {
+header .tertiary {
     font-family: "Ubuntu", sans-serif;
     font-size: 1.4rem;
 }
-header .introduction .quaternary {
+header .quaternary {
     font-family: "Ubuntu", sans-serif;
     font-size: 1.2rem;
 }
