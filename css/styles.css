@@ -117,6 +117,7 @@ header {
     column-gap: 10%;
 }
 .skills .container .content-item {
+    padding: 0;
     border-bottom: none;
 }
 
