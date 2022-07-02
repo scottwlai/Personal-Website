@@ -1,4 +1,4 @@
-/* Global */
+/* Global **************************************/
 * {
     margin: 0;
     padding: 0;
@@ -48,12 +48,12 @@ img {
     margin-top: 0.5rem;
 }
 
-/* About */
+/* About ***************************************/
 header {
     text-align: center;
 }
 
-/* Education */
+/* Education ***********************************/
 .education .content-item {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -86,7 +86,7 @@ header {
     margin: 0;
 }
 
-/* Certifications */
+/* Certifications ******************************/
 .certifications .content-item {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -96,7 +96,7 @@ header {
     border-radius: 0;
 }
 
-/* Skills */
+/* Skills **************************************/
 .skills .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -106,23 +106,23 @@ header {
     border-bottom: none;
 }
 
-/* Experience */
+/* Experience **********************************/
 .experience .content-item {
     display: grid;
     grid-template-columns: auto 1fr;
     column-gap: 5%;
 }
 
-/* Extracurriculars */
+/* Extracurriculars ****************************/
 .extracurriculars .content-item {
     display: grid;
     grid-template-columns: auto 1fr;
     column-gap: 5%;
 }
 
-/* Honors */
+/* Honors **************************************/
 
-/* Contact */
+/* Contact *************************************/
 footer {
     text-align: center;
 }
