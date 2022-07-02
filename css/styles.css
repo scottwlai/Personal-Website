@@ -95,6 +95,7 @@ header .quaternary {
     background-color: rgba(0,0,0,0.5);
     background-blend-mode: darken;
     background-position: left;
+    color: #FAFAFA;
 }
 .education .content-item {
     display: grid;
