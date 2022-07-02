@@ -81,6 +81,9 @@ header .quaternary {
     font-family: "Ubuntu", sans-serif;
     font-size: 1.2rem;
 }
+.capitalize {
+    text-transform: capitalize;
+}
 
 /* Education ***********************************/
 .education .content-item {
