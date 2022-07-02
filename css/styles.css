@@ -134,3 +134,6 @@ footer ul {
 footer li {
     margin: 0;
 }
+footer a {
+    padding: 15px;
+}
