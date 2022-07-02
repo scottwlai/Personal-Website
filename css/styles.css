@@ -45,6 +45,9 @@ img {
     padding: 20px 0;
     border-bottom: thin solid gray;
 }
+.content .content-item:first-of-type {
+    padding-top: 0;
+}
 .content .content-item:last-of-type {
     padding-bottom: 0;
     border-bottom: none;
