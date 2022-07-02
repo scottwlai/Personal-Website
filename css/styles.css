@@ -137,6 +137,15 @@ header {
 }
 
 /* Honors **************************************/
+.honors .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10%;
+}
+.honors .container .content-item {
+    padding: 0;
+    border-bottom: none;
+}
 
 /* Contact *************************************/
 footer {
