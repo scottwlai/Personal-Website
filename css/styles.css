@@ -141,6 +141,15 @@ header .quaternary {
 .certifications .content-item img {
     border-radius: 0;
 }
+.certifications a:link {
+    color: inherit;
+}
+.certifications a:hover {
+    color: #2372b4;
+}
+.certifications a:active {
+    color: inherit;
+}
 
 /* Skills **************************************/
 .skills {
