@@ -197,6 +197,19 @@ footer li {
 footer a {
     padding: 15px;
 }
+footer a:link {
+    color: #f5f5f5;
+}
+footer a:visited {
+    color: #b5b5b5;
+
+}
+footer a:hover {
+    color: #a5cbea;
+}
+footer a:active {
+    color: #cfdce7;
+}
 address {
     font-style: normal;
 }
