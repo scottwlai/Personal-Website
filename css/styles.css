@@ -67,6 +67,29 @@ img {
 header {
     text-align: center;
 }
+header p {
+    margin-top: 0.5rem;
+    line-height: 1.4;
+}
+header .introduction {
+    text-align: start;
+}
+header .introduction .primary {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 4rem;
+}
+header .introduction .secondary {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+}
+header .introduction .tertiary {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.4rem;
+}
+header .introduction .quaternary {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.2rem;
+}
 
 /* Education ***********************************/
 .education .content-item {
