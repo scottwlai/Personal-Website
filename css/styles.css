@@ -129,4 +129,8 @@ footer {
 footer ul {
     display: flex;
     justify-content: space-evenly;
+    list-style-type: none;
+}
+footer li {
+    margin: 0;
 }
