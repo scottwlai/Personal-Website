@@ -44,6 +44,9 @@ img {
     padding-bottom: 0;
     border-bottom: none;
 }
+.description {
+    margin-top: 0.5rem;
+}
 
 /* About */
 header {
