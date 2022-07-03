@@ -131,6 +131,15 @@ header .quaternary {
 .coursework li {
     margin-left: 0;
 }
+.education a:link {
+    color: inherit;
+}
+.education a:hover {
+    color: #ffe6bf;
+}
+.education a:active {
+    color: inherit;
+}
 
 /* Certifications ******************************/
 .certifications {
