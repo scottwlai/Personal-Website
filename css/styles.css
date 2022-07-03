@@ -187,6 +187,15 @@ header .quaternary {
     grid-template-columns: auto 1fr;
     column-gap: 5%;
 }
+.experience a:link {
+    color: inherit;
+}
+.experience a:hover {
+    color: #e08a00;
+}
+.experience a:active {
+    color: inherit;
+}
 
 /* Extracurriculars ****************************/
 .extracurriculars .content-item {
