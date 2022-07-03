@@ -97,6 +97,9 @@ header .quaternary {
     background-position: left;
     color: #FAFAFA;
 }
+.education .container {
+    backdrop-filter: blur(2px);
+}
 .education .content-item {
     display: grid;
     grid-template-columns: auto 1fr;
