@@ -203,6 +203,15 @@ header .quaternary {
     grid-template-columns: auto 1fr;
     column-gap: 5%;
 }
+.extracurriculars a:link {
+    color: inherit;
+}
+.extracurriculars a:hover {
+    color: #71b0fe;
+}
+.extracurriculars a:active {
+    color: inherit;
+}
 
 /* Honors **************************************/
 .honors {
