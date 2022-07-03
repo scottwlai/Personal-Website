@@ -92,7 +92,7 @@ header .quaternary {
 .education {
     background-image: url("../images/gdc-700.jpg");
     background-size: cover;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.6);
     background-blend-mode: darken;
     background-position: left;
     color: #FAFAFA;
