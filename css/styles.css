@@ -89,6 +89,11 @@ header .emphasize {
 .capitalize {
     text-transform: capitalize;
 }
+ header .container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    column-gap: 2rem;
+}
 
 /* Education ***********************************/
 .education {
