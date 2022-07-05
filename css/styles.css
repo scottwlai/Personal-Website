@@ -140,10 +140,14 @@ header .emphasize {
 }
 
 /* Certifications ******************************/
-.certifications .content-item {
+.certifications .container {
     display: grid;
-    grid-template-columns: auto 1fr;
-    column-gap: 5%;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.certifications .content-item {
+    padding: 0;
+    border-bottom: none;
 }
 .certifications .content-item img {
     border-radius: 0;
