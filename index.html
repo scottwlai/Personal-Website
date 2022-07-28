@@ -1,262 +1,554 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Scott Lai</title>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/styles.css">
-        <meta name="author" content="Scott Lai">
-        <meta name="description" content="Hi, my name is Scott Lai, and I'm a rising junior studying computer science and business at the University of Texas at Austin.">
-    </head>
-    <body>
-        <!-- About -->
-        <header class="content">
-            <div class="content-wrap">
-                <div class="container">
-                    <h1>Scott Lai</h1>
-                    <img src="" alt="photo of Scott Lai" width="200px" height="250px" srcset="">
-                    <section class="intro">
-                        <p>I'm a <span class="emphasize">rising junior</span> studying <span class="emphasize capitalize">computer science</span> and <span class="emphasize capitalize">business</span> at the <span class="emphasize">University of Texas at Austin</span>.</p>
-                        <p>I'm currently concentrating my studies in <span class="emphasize capitalize">software engineering</span> and have a growing interest in <span class="emphasize capitalize">web development</span>. In the near future, I hope to compliment my formal education with real-world experience in these fields</p>
-                        <p>I'm based in <span class="emphasize">Austin</span> while attending classes at UT, and I return to my hometown, <span class="emphasize">Houston</span>, for the summer. Outside of school, I enjoy gaming, coding, and video editing.</p>
-                    </section>
-                </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+    <title>Scott Lai</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&fami
+        ly=Ubuntu:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz@48" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+    <meta name="author" content="Scott Lai">
+    <meta name="description" content="Hi, my name's Scott, and I'm a
+        junior studying computer science and business at UT Austin.">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 class="no-wrap">Scott Lai</h1>
+        <a href="#" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <ul class="no-bullets bold" id="navlinks">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Resume</a></li>
+        </ul>
+      </nav>
+      <div class="container">
+        <img src="" alt="photo of Scott Lai" width="200px"
+            height="200px" srcset="">
+        <p>
+          Hi, my name's <span class="bold">Scott</span>, and I'm a
+          <span class="bold">junior</span> studying <span
+          class="bold capital">computer science</span> and <span
+          class="bold capital">business</span> at <span
+          class="bold">UT Austin</span>.
+        </p>
+        <p>
+          I'm currently concentrating my studies in
+          <span class="bold capital">software engineering</span> and
+          have a growing interest in <span class="bold capital"> web
+          development</span>.
+        </p>
+        <p>
+          I'm a native <span class="bold">Houstonian</span> and am
+          currently based in <span class="bold">Austin</span>.
+          Outside of school, I enjoy gaming, coding, and video
+          editing.
+        </p>
+      </div>
+    </header>
+    <main>
+      <!-- Education ----------------------------------------------->
+      <section id="education">
+        <h2>Education</h2>
+        <div class="container">
+          <section class="card content" id="ut">
+            <img src="images/ut.svg" alt="UT Austin logo"
+                width="250px">
+            <ul class="no-bullets details">
+              <li class="italic major">
+                <span class="material-symbols-rounded">
+                  school
+                </span>
+                B.S. in Computer Science<br>
+              </li>
+              <li class="italic minor">
+                <span class="material-symbols-rounded">
+                  school
+                </span>
+                Minor in Business
+              </li>
+              <li class="gpa">
+                <span class="material-symbols-rounded">
+                  workspace_premium
+                </span>
+                3.6276 GPA
+              </li>
+              <li class="date">
+                <span class="material-symbols-rounded">
+                  calendar_month
+                </span>
+                <time datetime="2020-08">Aug 2020</time> -
+                <time datetime="2024-05">May 2024</time>
+              </li>
+              <li class="location">
+                <span class="material-symbols-rounded">
+                  location_on
+                </span>
+                Austin, TX
+              </li>
+            </ul>
+            <section class="coursework">
+              <h4>Relevant Coursework</h4>
+              <ul>
+                <li>Intro Programming</li>
+                <li>Data Structures</li>
+                <li>Computer Architecture</li>
+                <li>Operating Systems</li>
+                <li>Progamming for Performance</li>
+                <li>Software Engineering</li>
+                <li>Prin. of Machine Learning</li>
+                <li>Autonomous Robots</li>
+                <li>Multivariable Calculus</li>
+                <li>Discrete Math</li>
+                <li>Probability & Stats</li>
+                <li>Linear Algebra</li>
+              </ul>
+            </section>
+          </section>
+        </div>
+      </section>
+      <!-- Certifications ------------------------------------------>
+      <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="container">
+          <section class="card" id="html">
+            <img src="images/html-300.png"
+                alt="HTML course certificate" width="300px"
+                height="232px" srcset="images/html-600.png 2x">
+            <div class="content">
+              <h3>
+                <a href="https://linkedin.com/learning/certificates/4fb4c
+                    d7030a2629845f989f6cc9d17b0ae8bc22bbf7295c2eddf7f91af
+                    660d03?u=36306084" target="_blank">
+                  HTML Essential Training
+                </a>
+              </h3>
+              <ul class="no-bullets details">
+                <li class="italic issuer">
+                  <span class="material-symbols-rounded">
+                    verified
+                  </span>
+                  LinkedIn Learning
+                </li>
+                <li class="date">
+                  <span class="material-symbols-rounded">
+                    calendar_month
+                  </span>
+                  <time datetime="2022-05">May 2022</time>
+                </li>
+              </ul>
             </div>
-        </header>
-        <main>
-            <!-- Education -->
-            <section class="content education">
-                <div class="container">
-                    <div class="content-wrap">
-                        <h2>Education</h2>
-                        <section class="content-item">
-                            <img src="images/ut-77.png" alt="UT crest" width="77px" height="100px" srcset="images/ut-155.png 2x">
-                            <h3 class="university"><a href="https://utexas.edu" target="_blank">University of Texas at Austin</a></h3>
-                            <div class="degree">
-                                <p>Bachelor of Science in Computer Science</p>
-                                <p>Minor in Business</p>
-                            </div>
-                            <div class="date-location">
-                                <p><time datetime="2020-08">Aug 2020</time> - <time datetime="2024-05">May 2024</time></p>
-                                <p>Austin, TX</p>
-                            </div>
-                            <p class="gpa">GPA: 3.6276</p>
-                            <div class="description">
-                                <h4>Relevant Coursework</h4>
-                                <ul class="coursework">
-                                    <li>Intro to Programming</li>
-                                    <li>Data Structures</li>
-                                    <li>Computer Architecture</li>
-                                    <li>Operating Systems</li>
-                                    <li>Progamming for Performance</li>
-                                    <li>Autonomous Robots</li>
-                                    <li>Multivariable Calculus</li>
-                                    <li>Intro to Probability & Stats</li>
-                                    <li>Linear Algebra</li>
-                                </ul>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </section>
-            <!-- Certifications -->
-            <section class="content certifications">
-                <div class="content-wrap">
-                    <h2>Certifications</h2>
-                    <div class="container">
-                        <section class="content-item">
-                            <a href="https://linkedin.com/learning/certificates/4fb4cd7030a2629845f989f6cc9d17b0ae8bc22bbf7295c2eddf7f91af660d03?u=36306084" target="_blank">
-                                <img src="images/html-300.png" alt="HTML course certificate" width="300px" height="232px" srcset="images/html-600.png 2x">
-                            </a>
-                            <div class="description">
-                                <h3><a href="https://linkedin.com/learning/certificates/4fb4cd7030a2629845f989f6cc9d17b0ae8bc22bbf7295c2eddf7f91af660d03?u=36306084" target="_blank">HTML Essential Training</a></h3>
-                                <p class="subtitle">LinkedIn Learning</p>
-                                <p><time datetime="2022-05">May 2022</time></p>
-                            </div>
-                        </section>
-                        <section class="content-item">
-                            <a href="https://linkedin.com/learning/certificates/cb63afd18c10d3802649fea0b9e744aea8d6b60d73932748cdbec31c410b2e20?u=36306084" target="_blank">
-                                <img src="images/css-300.png" alt="CSS course certificate" width="300px" height="232px" srcset="images/css-600.png 2x">
-                            </a>
-                            <div class="description">
-                                <h3><a href="https://linkedin.com/learning/certificates/cb63afd18c10d3802649fea0b9e744aea8d6b60d73932748cdbec31c410b2e20?u=36306084" target="_blank">CSS Essential Training</a></h3>
-                                <p class="subtitle">LinkedIn Learning</p>
-                                <p><time datetime="2022-06">Jun 2022</time></p>
-                            </div>
-                        </section>
-                        <section class="content-item">
-                            <a href="https://linkedin.com/learning/certificates/6cd0a5dc320ec079d68d0a1ed5b76b03d18f1c353e3eb6106883cd940df9d350?u=36306084" target="_blank">
-                                <img src="images/javascript-300.png" alt="JavaScript course certificate" width="300px" height="232px" srcset="images/javascript-600.png 2x">
-                            </a>
-                            <div class="description">
-                                <h3><a href="https://linkedin.com/learning/certificates/6cd0a5dc320ec079d68d0a1ed5b76b03d18f1c353e3eb6106883cd940df9d350?u=36306084" target="_blank">JavaScript Essential Training</a></h3>
-                                <p class="subtitle">LinkedIn Learning</p>
-                                <p><time datetime="2022-06">Jun 2022</time></p>
-                            </div>
-                        </section>
-                        <section class="content-item">
-                            <a href="https://linkedin.com/learning/certificates/c28df93f4588d08d65c654581e91cdc59e3240a34a542dc3eab523968612f721?u=36306084" target="_blank">
-                                <img src="images/git-300.png" alt="Git course certificate" width="300px" height="232px" srcset="images/git-600.png 2x">
-                            </a>
-                            <div class="description">
-                                <h3><a href="https://linkedin.com/learning/certificates/c28df93f4588d08d65c654581e91cdc59e3240a34a542dc3eab523968612f721?u=36306084" target="_blank">Git Essential Training: The Basics</a></h3>
-                                <p class="subtitle">LinkedIn Learning</p>
-                                <p><time datetime="2022-06">Jun 2022</time></p>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </section>
-            <!-- Skills -->
-            <section class="content skills">
-                <div class="content-wrap">
-                    <h2>Skills</h2>
-                    <div class="container">
-                        <section class="content-item" id="languages">
-                            <h3>Languages</h3>
-                            <section id="advanced">
-                                <h4>Advanced</h4>
-                                <ul>
-                                    <li>Java</li>
-                                    <li>C</li>
-                                    <li>C++</li>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                </ul>
-                            </section>
-                            <section id="basic">
-                                <h4>Basic</h4>
-                                <ul>
-                                    <li>JavaScript</li>
-                                    <li>LaTeX</li>
-                                    <li>Make</li>
-                                    <li>Wolfram Language</li>
-                                </ul>
-                            </section>
-                        </section>
-                        <section class="content-item" id="tools">
-                            <h3>Tools</h3>
-                            <ul>
-                                <li>Git</li>
-                                <li>GitHub</li>
-                                <li>Eclipse</li>
-                                <li>Visual Studio Code</li>
-                                <li>Windows</li>
-                                <li>MacOS</li>
-                                <li>Linux</li>
-                                <li>Adobe Premiere Pro</li>
-                                <li>Sony Vegas Pro</li>
-                                <li>Microsoft Office</li>
-                                <li>Google Workspace</li>
-                            </ul>
-                        </section>
-                    </div>
-                </div>
-            </section>
-            <!-- Experience -->
-            <section class="content experience">
-                <div class="content-wrap">
-                    <h2>Experience</h2>
-                    <section class="content-item">
-                        <a href="https://cns.utexas.edu/component/cobalt/item/1425-autonomous-intelligent-robotics?Itemid=1971" target="_blank">
-                            <img src="images/azure-300.jpg" alt="Microsoft Azure Kinect camera" width="300px" height="225px" srcset="images/azure-600.jpg 2x">
-                        </a>
-                        <div class="title">
-                            <h3><a href="https://cns.utexas.edu/component/cobalt/item/1425-autonomous-intelligent-robotics?Itemid=1971" target="_blank">FRI Student</a></h3>
-                            <p class="subtitle">UT Austin Freshman Research Initiative</p>
-                            <p><time datetime="2021-01">Jan 2021</time> - <time datetime="2021-05">May 2021</time></p>
-                            <p>Austin, TX</p>
-                        </div>
-                        <div class="details">
-                            <ul class="description">
-                                <li>Implemented & evaluated a position preduction algorithm using Microsoft Azure Kinect DK</li>
-                                <li>Presented findings in scientific research paper & talk</li>
-                            </ul>
-                        </div>
-                    </section>
-                    <section class="content-item">
-                        <a href="https://nursing.utexas.edu/students/leap-center/simulation-skills-center" target="_blank">
-                            <img src="images/supply-300.jpg" alt="rack of nursing supplies" width="300px" height="225px" srcset="images/supply-600.jpg 2x">
-                        </a>
-                        <div class="title">
-                            <h3><a href="https://nursing.utexas.edu/students/leap-center/simulation-skills-center" target="_blank">Student Lab Assistant</a></h3>
-                            <p class="subtitle">UT Austin School of Nursing, Simulation & Skills Center</p>
-                            <p><time datetime="2020-09">Sep 2020</time> - <time datetime="2020-12">Dec 2020</time></p>
-                            <p>Austin, TX</p>
-                        </div>
-                        <div class="details">
-                            <ul class="description">
-                                <li>Resolved day-to-day IT issues of staff & students</li>
-                                <li>Prepared computer & lab equipment for daily simulations</li>
-                                <li>Maintained inventory of lab equipment</li>
-                            </ul>
-                        </div>
-                    </section>
-                </div>
-            </section>
-            <!-- Extracurriculars -->
-            <section class="content extracurriculars">
-                <div class="content-wrap">
-                    <h2>Extracurriculars</h2>
-                    <section class="content-item">
-                        <a href="https://isss.io" target="_blank">
-                            <img src="images/isss-200.png" alt="padlock" width="200px" height="250px" srcset="images/isss-400.png 2x">
-                        </a>
-                        <div class="title">
-                            <h3><a href="https://isss.io" target="_blank">Member</a></h3>
-                            <p class="subtitle">Information & Systems Security Society</p>
-                            <p><time datetime="2020-09">Sep 2020</time> - <time datetime="2022-05">May 2022</time></p>
-                            <p>Austin, TX</p>
-                        </div>
-                        <p class="description">Attended biweekly CTF events & tech talks on security concepts & tools</p>
-                    </section>
-                    <section class="content-item">
-                        <a href="https://apoonline.org/alpharho" target="_blank">
-                            <img src="images/apo-200.png" alt="longhorn" width="200px" height="200px" srcset="images/apo-400.png 2x">
-                        </a>
-                        <div class="title">
-                            <h3><a href="https://apoonline.org/alpharho" target="_blank">Member</a></h3>
-                            <p class="subtitle">Alpha Phi Omega</p>
-                            <p><time datetime="2021-01">Jan 2021</time> - <time datetime="2021-04">Apr 2021</time></p>
-                            <p>Austin, TX</p>
-                        </div>
-                        <p class="description">Volunteered in blood donation campaign</p>
-                    </section>
-                </div>
-            </section>
-            <!-- Honors -->
-            <section class="content honors">
-                <div class="content-wrap">
-                    <h2>Honors</h2>
-                    <div class="container">
-                        <section class="content-item">
-                            <h3><a href="https://catalog.utexas.edu/general-information/academic-policies-and-procedures/honors/#universityhonorstext" target="_blank">University Honors</a></h3>
-                            <p class="subtitle">UT Austin</p>
-                            <p><time datetime="2020">2020</time> - <time datetime="2022">2022</time></p>
-                        </section>
-                        <section class="content-item">
-                            <h3>Rodeo Scholar</h3>
-                            <p class="subtitle">Houston Livestock Show & Rodeo</p>
-                            <p><time datetime="2020">2020</time></p>
-                        </section>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <!-- Contact -->
-        <footer class="content">
-            <div class="content-wrap">
-                <h2>Contact</h2>
-                <address>
-                    <ul>
-                        <li id="linkedin"><a href="https://linkedin.com/in/scottwlai/" target="_blank">LinkedIn</a></li>
-                        <li id="github"><a href="https://github.com/scottwlai" target="_blank">GitHub</a></li>
-                        <li id="email"><a href="mailto:scottlai@cs.utexas.edu">scottlai@cs.utexas.edu</a></li>
-                        <li id="phone"><a href="tel:+17138205695">(713) 820-5695</a></li>
-                    </ul>
-                </address>
+          </section>
+  
+          <section class="card" id="css">
+            <img src="images/css-300.png"
+                alt="CSS course certificate" width="300px"
+                height="232px" srcset="images/css-600.png 2x">
+            <div class="content">
+              <h3>
+                <a href="https://linkedin.com/learning/certificates/cb63a
+                    fd18c10d3802649fea0b9e744aea8d6b60d73932748cdbec31c41
+                    0b2e20?u=36306084" target="_blank">
+                  CSS Essential Training
+                </a>
+              </h3>
+              <ul class="no-bullets details">
+                <li class="italic issuer">
+                  <span class="material-symbols-rounded">
+                    verified
+                  </span>
+                  LinkedIn Learning
+                </li>
+                <li class="date">
+                  <span class="material-symbols-rounded">
+                    calendar_month
+                  </span>
+                  <time datetime="2022-06">Jun 2022</time>
+                </li>
+              </ul>
             </div>
-        </footer>
-    </body>
+          </section>
+  
+          <section class="card" id="js">
+            <img src="images/javascript-300.png"
+                alt="JavaScript course certificate" width="300px"
+                height="232px" srcset="images/javascript-600.png 2x">
+            <div class="content">
+              <h3>
+                <a href="https://linkedin.com/learning/certificates/6cd0a
+                    5dc320ec079d68d0a1ed5b76b03d18f1c353e3eb6106883cd940d
+                    f9d350?u=36306084" target="_blank">
+                  JavaScript Essential Training
+                </a>
+              </h3>
+              <ul class="no-bullets details">
+                <li class="italic issuer">
+                  <span class="material-symbols-rounded">
+                    verified
+                  </span>
+                  LinkedIn Learning
+                </li>
+                <li class="date">
+                  <span class="material-symbols-rounded">
+                    calendar_month
+                  </span>
+                  <time datetime="2022-06">Jun 2022</time>
+                </li>
+              </ul>
+            </div>
+          </section>
+  
+          <section class="card" id="git">
+            <img src="images/git-300.png"
+                alt="Git course certificate" width="300px"
+                height="232px" srcset="images/git-600.png 2x">
+            <div class="content">
+              <h3>
+                <a href="https://linkedin.com/learning/certificates/c28df
+                    93f4588d08d65c654581e91cdc59e3240a34a542dc3eab5239686
+                    12f721?u=36306084" target="_blank">
+                  Git Essential Training:
+                  <span class="no-wrap">The Basics</span>
+                </a>
+              </h3>
+              <ul class="no-bullets details">
+                <li class="italic issuer">
+                  <span class="material-symbols-rounded">
+                    verified
+                  </span>
+                  LinkedIn Learning
+                </li>
+                <li class="date">
+                  <span class="material-symbols-rounded">
+                    calendar_month
+                  </span>
+                  <time datetime="2022-06">Jun 2022</time>
+                </li>
+              </ul>
+            </div>
+          </section>
+  
+          <section class="card" id="layout">
+            <img src="images/layout-300.png"
+                alt="responsive layout course certificate"
+                width="300px" height="232px"
+                srcset="images/layout-600.png 2x">
+            <div class="content">
+              <h3>
+                <a href="https://linkedin.com/learning/certificates/c28df
+                    93f4588d08d65c654581e91cdc59e3240a34a542dc3eab5239686
+                    12f721?u=36306084" target="_blank">
+                  Responsive Layout
+                </a>
+              </h3>
+              <ul class="no-bullets details">
+                <li class="italic issuer">
+                  <span class="material-symbols-rounded">
+                    verified
+                  </span>
+                  LinkedIn Learning
+                </li>
+                <li class="date">
+                  <span class="material-symbols-rounded">
+                    calendar_month
+                  </span>
+                  <time datetime="2022-06">Jul 2022</time>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </section>
+      <!-- Skills -------------------------------------------------->
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="container">
+          <section class="card content" id="languages">
+            <h3>Languages</h3>
+            <section id="advanced">
+              <h4>Advanced</h4>
+              <ul>
+                <li>Java</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </section>
+            <section id="basic">
+              <h4>Basic</h4>
+              <ul>
+                <li>JavaScript</li>
+                <li>LaTeX</li>
+                <li>Make</li>
+                <li>Wolfram Language</li>
+              </ul>
+            </section>
+          </section>
+          <section class="card content" id="tools">
+            <h3>Tools</h3>
+            <ul>
+              <li>Git & GitHub</li>
+              <li>Eclipse</li>
+              <li>VS Code</li>
+              <li>Adobe Premiere Pro</li>
+              <li>Sony Vegas Pro</li>
+              <li>Microsoft Office</li>
+              <li>Google Workspace</li>
+            </ul>
+          </section>
+        </div>
+      </section>
+      <!-- Experience ---------------------------------------------->
+      <section id="experience">
+        <h2>Experience</h2>
+        <div class="container">
+          <section class="card" id="fri">
+            <img src="images/azure-300.jpg"
+                alt="Microsoft Azure Kinect camera" width="300px"
+                height="225px" srcset="images/azure-600.jpg 2x">
+            <div class="content">
+              <h3>
+                <a href="https://cns.utexas.edu/component/cobalt/item/142
+                    5-autonomous-intelligent-robotics?Itemid=1971"
+                    target="_blank">
+                  FRI Student
+                </a>
+              </h3>
+              <ul class="no-bullets details">
+                <li class="italic employer">
+                  <span class="material-symbols-rounded">
+                    business_center
+                  </span>
+                  UT Austin Freshman Research Initiative
+                </li>
+                <li class="date">
+                  <span class="material-symbols-rounded">
+                    calendar_month
+                  </span>
+                  <time datetime="2021-01">Jan 2021</time> -
+                  <time datetime="2021-05">May 2021</time>
+                </li>
+                <li class="location">
+                  <span class="material-symbols-rounded">
+                    location_on
+                  </span>
+                  Austin, TX
+                </li>
+              </ul>
+              <ul>
+                <li>Implemented & evaluated a position preduction
+                    algorithm using Microsoft Azure Kinect DK</li>
+                <li>Presented findings in scientific research paper &
+                    talk</li>
+              </ul>
+            </div>
+          </section>
+          <section class="card" id="nursing">
+            <img src="images/supply-300.jpg"
+                alt="rack of nursing supplies" width="300px"
+                height="225px" srcset="images/supply-600.jpg 2x">
+            <div class="content">
+              <h3>
+                <a href="https://nursing.utexas.edu/students/leap-center/
+                    simulation-skills-center" target="_blank">
+                  Student Lab Assistant
+                </a>
+              </h3>
+              <ul class="no-bullets details">
+                <li class="italic employer">
+                  <span class="material-symbols-rounded">
+                    business_center
+                  </span>
+                  UT Austin School of Nursing,
+                  Simulation & Skills Center
+                </li>
+                <li class="date">
+                  <span class="material-symbols-rounded">
+                    calendar_month
+                  </span>
+                  <time datetime="2020-09">Sep 2020</time> -
+                  <time datetime="2020-12">Dec 2020</time>
+                </li>
+                <li class="location">
+                  <span class="material-symbols-rounded">
+                    location_on
+                  </span>
+                  Austin, TX
+                </li>
+              </ul>
+              <ul>
+                <li>Resolved day-to-day IT issues of staff &
+                    students</li>
+                <li>Prepared computer & lab equipment for daily
+                    simulations</li>
+                <li>Maintained inventory of lab equipment</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </section>
+      <!-- Extracurriculars ---------------------------------------->
+      <section id="extracurriculars">
+        <h2>Extracurriculars</h2>
+        <div class="container">
+          <section class="card" id="isss">
+            <img src="images/isss-200.png" alt="padlock"
+                width="200px" height="250px"
+                srcset="images/isss-400.png 2x">
+            <div class="content">
+              <h3>
+                <a href="https://isss.io" target="_blank">
+                  Member
+                </a>
+              </h3>
+              <ul class="no-bullets details">
+                <li class="italic org">
+                  <span class="material-symbols-rounded">
+                    group
+                  </span>
+                  Information & Systems Security Society
+                </li>
+                <li class="date">
+                  <span class="material-symbols-rounded">
+                    calendar_month
+                  </span>
+                  <time datetime="2020-09">Sep 2020</time> -
+                  <time datetime="2022-05">May 2022</time>
+                </li>
+                <li class="location">
+                  <span class="material-symbols-rounded">
+                    location_on
+                  </span>
+                  Austin, TX
+                </li>
+              </ul>
+              <ul class="no-bullets">
+                <li>Attended biweekly CTF events & tech talks on security
+                    concepts & tools</li>
+              </ul>
+            </div>
+          </section>
+          <section class="card" id="apo">
+            <img src="images/apo-200.png" alt="longhorn"
+                width="200px" height="200px"
+                srcset="images/apo-400.png 2x">
+            <div class="content">
+              <h3>
+                <a href="https://apoonline.org/alpharho" target="_blank">
+                  Member
+                </a>
+              </h3>
+              <ul class="no-bullets details">
+                <li class="italic org">
+                  <span class="material-symbols-rounded">
+                    group
+                  </span>
+                  Alpha Phi Omega
+                </li>
+                <li class="date">
+                  <span class="material-symbols-rounded">
+                    calendar_month
+                  </span>
+                  <time datetime="2021-01">Jan 2021</time> -
+                  <time datetime="2021-04">Apr 2021</time>
+                </li>
+                <li class="location">
+                  <span class="material-symbols-rounded">
+                    location_on
+                  </span>
+                  Austin, TX
+                </li>
+              </ul>
+              <ul class="no-bullets">
+                <li>Volunteered in blood donation campaign</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </section>
+      <!-- Honors -------------------------------------------------->
+      <section id="honors">
+        <h2>Honors</h2>
+        <div class="container">
+          <section class="card content" id="uni">
+            <h3>
+              <a href="https://catalog.utexas.edu/general-information/a
+                  cademic-policies-and-procedures/honors/#universityhon
+                  orstext" target="_blank">
+                University Honors
+              </a>
+            </h3>
+            <ul class="no-bullets details">
+              <li class="italic">
+                <span class="material-symbols-rounded">
+                  verified
+                </span>
+                UT Austin
+              </li>
+              <li>
+                <span class="material-symbols-rounded">
+                  calendar_month
+                </span>
+                <time datetime="2020">2020</time> -
+                <time datetime="2022">2022</time>
+              </li>
+            </ul>
+          </section>
+          <section class="card content" id="hlsr">
+            <h3>Rodeo Scholar</h3>
+            <ul class="no-bullets details">
+              <li class="italic">
+                <span class="material-symbols-rounded">
+                  verified
+                </span>
+                Houston Livestock Show & Rodeo
+              </li>
+              <li>
+                <span class="material-symbols-rounded">
+                  calendar_month
+                </span>
+                <time datetime="2020">2020</time>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </section>
+    </main>
+    <!-- Contact --------------------------------------------------->
+    <footer>
+      <address>
+        <ul class="no-bullets">
+          <li>
+            <a href="https://linkedin.com/in/scottwlai/"
+                target="_blank">
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/scottwlai" target="_blank">
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a href="mailto:scottlai@cs.utexas.edu">
+              scottlai@cs.utexas.edu
+            </a>
+          </li>
+          <li>
+            <a href="tel:+17138205695">
+              (713) 820-5695
+            </a>
+          </li>
+        </ul>
+      </address>
+    </footer>
+  </body>
 </html>
