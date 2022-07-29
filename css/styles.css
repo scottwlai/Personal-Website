@@ -438,7 +438,7 @@ address a {
     margin: 0 0.0625rem;
   }
 }
-/* @media screen and (min-width: 482px) {
+@media screen and (min-width: 482px) {
   #education .details {
     grid-template-areas:
       "major major major minor minor minor"
@@ -447,4 +447,4 @@ address a {
   #education .coursework ul {
     column-count: 2;
   }
-} */
+}
