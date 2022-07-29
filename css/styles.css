@@ -1,426 +1,426 @@
 /* General *********************************************************/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* border: thin solid red; */
-  }
-  html {
-    color: #333;
-    background: #f7f7f7;
-    font-family: "Raleway", sans-serif;
-    font-size: clamp(1rem, 1vw + 0.5rem, 2rem);
-  }
-  main {
-    /* width: min(700px, 90%); */
-    width: min(1200px, 90vw);
-    margin: 0 auto;
-    display: grid;
-    gap: 4rem;
-  }
-  h2 {
-    font-family: "Ubuntu", sans-serif;
-    font-size: 1.875rem;
-    margin: 0 0 0.75rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: -0.125rem;
-  }
-  h2::before, h2::after {
-    content: "";
-    height: 0.25rem;
-    background: #333;
-    flex: 1;
-    margin: 0 0.25em 0 0;
-    transform: skew(135deg);
-  }
-  h2::after {
-    margin: 0 0 0 0.25em;
-    transform: skew(45deg);
-  }
-  h3 {
-    font-size: 1.125rem;
-  }
-  ul {
-    padding-left: 1.125rem;
-  }
-  img {
-    border-radius: 1.25rem 1.25rem 0 0;
-  }
-  .no-bullets {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  .bold {
-    font-weight: bold;
-  }
-  .italic {
-    font-style: italic;
-  }
-  .capital {
-    text-transform: capitalize;
-  }
-  .no-wrap {
-    white-space: nowrap;
-  }
-  .container {
-    display: grid;
-    gap: 2.5rem;
-  }
-  .card {
-    border-radius: 1.25rem;
-    box-shadow:
-      0 4px 8px 0 rgba(0, 0, 0, 0.2),
-      0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  .content {
-    padding: 0.75rem 1rem 1rem;
-    display: grid;
-    gap: 1rem;
-  }
-  .card.content {
-    padding-top: 1rem;
-  }
-  .details {
-    display: grid;
-    gap: 0.25rem;
-  }
-  .details li {
-    padding-left: 1.375rem;
-  }
-  .material-symbols-rounded {
-    margin-left: -1.375rem;
-    font-size: 1.125rem;
-  
-  }
-  /* Header **********************************************************/
-  header {
-    margin: 0 0 3rem;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: thin solid red; */
+}
+html {
+  color: #333;
+  background: #f7f7f7;
+  font-family: "Raleway", sans-serif;
+  font-size: clamp(1rem, 1vw + 0.5rem, 2rem);
+}
+main {
+  /* width: min(700px, 90%); */
+  width: min(1200px, 90vw);
+  margin: 0 auto;
+  display: grid;
+  gap: 4rem;
+}
+h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.875rem;
+  margin: 0 0 0.75rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: -0.125rem;
+}
+h2::before, h2::after {
+  content: "";
+  height: 0.25rem;
+  background: #333;
+  flex: 1;
+  margin: 0 0.25em 0 0;
+  transform: skew(135deg);
+}
+h2::after {
+  margin: 0 0 0 0.25em;
+  transform: skew(45deg);
+}
+h3 {
+  font-size: 1.125rem;
+}
+ul {
+  padding-left: 1.125rem;
+}
+img {
+  border-radius: 1.25rem 1.25rem 0 0;
+}
+.no-bullets {
+  list-style-type: none;
+  padding-left: 0;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.capital {
+  text-transform: capitalize;
+}
+.no-wrap {
+  white-space: nowrap;
+}
+.container {
+  display: grid;
+  gap: 2.5rem;
+}
+.card {
+  border-radius: 1.25rem;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.content {
+  padding: 0.75rem 1rem 1rem;
+  display: grid;
+  gap: 1rem;
+}
+.card.content {
+  padding-top: 1rem;
+}
+.details {
+  display: grid;
+  gap: 0.25rem;
+}
+.details li {
+  padding-left: 1.375rem;
+}
+.material-symbols-rounded {
+  margin-left: -1.375rem;
+  font-size: 1.125rem;
+
+}
+/* Header **********************************************************/
+header {
+  margin: 0 0 3rem;
+}
+nav {
+  margin: 0 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #efefef;
+  border-bottom: thin solid gray;
+  flex-direction: column;
+}
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.25rem;
+  letter-spacing: -0.125rem;
+  padding-left: 1rem;
+}
+#hamburger {
+  position: absolute;
+  top: 0.625rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2rem;
+  height: 1.625rem;
+}
+.bar {
+  height: 0.25rem;
+  width: 100%;
+  background-color: #333;
+  border-radius: 0.625rem;
+}
+#navlinks {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+}
+#navlinks.active {
+  display: flex;
+}
+#navlinks a {
+  display: block;
+  text-decoration: none;
+  padding: 0.5rem;
+  color: #333;
+  text-align: center;
+}
+#navlinks a:hover {
+  background-color: #ddd;
+}
+header .container {
+  width: min(1200px, 90%);
+  margin: 0 auto;
+}
+header img {
+  display: block;
+  margin: 1.5rem auto 0;
+  border: thin solid green;
+  border-radius: 50%;
+}
+header p {
+  line-height: 1.25;
+}
+/* Education *******************************************************/
+#education .container {
+  grid-template-areas:
+    "ut";
+}
+#ut {
+  grid-area: ut;
+}
+#education .content {
+  grid-template-areas:
+    "emblem"
+    "details"
+    "coursework";
+}
+#education img {
+  width: min(100%, 400px);
+  border-radius: 0;
+  grid-area: emblem;
+}
+#education .details {
+  grid-area: details;
+  grid-template-areas:
+    "major"
+    "minor"
+    "gpa"
+    "date"
+    "location";
+  gap: 0.5rem;
+}
+#education .details .major {
+  grid-area: major;
+}
+#education .details .minor {
+  grid-area: minor;
+}
+#education .details .date {
+  grid-area: date;
+}
+#education .details .location {
+  grid-area: location;
+}
+#education .details .gpa {
+  grid-area: gpa;
+}
+#education .coursework {
+  grid-area: coursework;
+}
+/* Certifications **************************************************/
+#certifications .container {
+  grid-template-areas:
+    "html"
+    "css"
+    "js"
+    "git"
+    "layout";
+}
+#html {
+  grid-area: html;
+}
+#css {
+  grid-area: css;
+}
+#js {
+  grid-area: js;
+}
+#git {
+  grid-area: git;
+}
+#layout {
+  grid-area: layout;
+}
+#certifications img {
+  width: min(100%, 400px);
+  height: auto;
+}
+#certifications .details {
+  grid-template-areas:
+    "issuer"
+    "date";
+}
+#certifications .details .issuer {
+  grid-area: issuer;
+}
+#certifications .details .date {
+  grid-area: date;
+}
+/* Skills **********************************************************/
+#skills .container {
+  grid-template-areas:
+    "languages"
+    "tools";
+}
+#languages {
+  grid-area: languages;
+  grid-template-areas:
+    "languages languages"
+    "advanced basic";
+  grid-template-columns: 1fr 1fr;
+}
+#languages h3 {
+  grid-area: languages;
+}
+#advanced {
+  grid-area: advanced;
+}
+#basic {
+  grid-area: basic;
+}
+#tools {
+  grid-area: tools;
+}
+/* Experience ******************************************************/
+#experience .container {
+  grid-template-areas:
+    "fri"
+    "nursing";
+}
+#fri {
+  grid-area: fri;
+}
+#nursing {
+  grid-area: nursing;
+}
+#experience img {
+  width: min(100%, 400px);
+  height: auto;
+}
+#experience .content {
+  grid-template-areas:
+    "position"
+    "details"
+    "responsibilities";
+}
+#experience h3 {
+  grid-area: position;
+}
+#experience .details {
+  grid-area: details;
+  grid-template-areas:
+    "employer"
+    "date"
+    "location";
+}
+#experience .details .employer {
+  grid-area: employer;
+}
+#experience .details .date {
+  grid-area: date;
+}
+#experience .details .location {
+  grid-area: location;
+}
+#experience .responsibilities {
+  grid-area: responsibilities;
+}
+/* Extracurriculars ************************************************/
+#extracurriculars .container {
+  grid-template-areas:
+    "isss"
+    "apo";
+}
+#isss {
+  grid-area: isss;
+}
+#apo {
+  grid-area: apo;
+}
+#extracurriculars img {
+  width: min(100%, 400px);
+  height: auto;
+}
+#extracurriculars .content {
+  grid-template-areas:
+    "position"
+    "details"
+    "responsibilities";
+}
+#extracurriculars h3 {
+  grid-area: position;
+}
+#extracurriculars .details {
+  grid-area: details;
+  grid-template-areas:
+    "org"
+    "date"
+    "location";
+}
+#extracurriculars .details .org {
+  grid-area: org;
+}
+#extracurriculars .details .date {
+  grid-area: date;
+}
+#extracurriculars .details .location {
+  grid-area: location;
+}
+#extracurriculars .responsibilities {
+  grid-area: responsibilities;
+}
+/* Honors **********************************************************/
+#honors .container {
+  grid-template-areas:
+    "uni"
+    "hlsr";
+}
+#uni {
+  grid-area: uni;
+}
+#hlsr {
+  grid-area: hlsr;
+}
+#honors .details {
+  grid-template-areas:
+    "issuer"
+    "date";
+}
+#honors .details .issuer {
+  grid-area: issuer;
+}
+#honors .details .date {
+  grid-area: date;
+}
+/* Footer **********************************************************/
+footer {
+  margin: 3rem 0 0;
+  background: #efefef;
+  text-align: center;
+  border-top: thin solid gray;
+}
+address a {
+  display: inline-block;
+  padding: 0.75rem;
+}
+/* Media Queries ***************************************************/
+@media screen and (min-width: 415px) {
+  /* Header */
   nav {
-    margin: 0 0 3rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    background-color: #efefef;
-    border-bottom: thin solid gray;
-    flex-direction: column;
-  }
-  h1 {
-    font-family: "Ubuntu", sans-serif;
-    font-size: 2.25rem;
-    letter-spacing: -0.125rem;
-    padding-left: 1rem;
+    flex-direction: row;
+    align-items: center;
   }
   #hamburger {
-    position: absolute;
-    top: 0.625rem;
-    right: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 2rem;
-    height: 1.625rem;
-  }
-  .bar {
-    height: 0.25rem;
-    width: 100%;
-    background-color: #333;
-    border-radius: 0.625rem;
+    display: none;
   }
   #navlinks {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-  }
-  #navlinks.active {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
   }
   #navlinks a {
-    display: block;
-    text-decoration: none;
-    padding: 0.5rem;
-    color: #333;
-    text-align: center;
-  }
-  #navlinks a:hover {
-    background-color: #ddd;
-  }
-  header .container {
-    width: min(1200px, 90%);
-    margin: 0 auto;
-  }
-  header img {
-    display: block;
-    margin: 1.5rem auto 0;
-    border: thin solid green;
-    border-radius: 50%;
-  }
-  header p {
-    line-height: 1.25;
-  }
-  /* Education *******************************************************/
-  #education .container {
-    grid-template-areas:
-      "ut";
-  }
-  #ut {
-    grid-area: ut;
-  }
-  #education .content {
-    grid-template-areas:
-      "emblem"
-      "details"
-      "coursework";
-  }
-  #education img {
-    width: min(100%, 400px);
-    border-radius: 0;
-    grid-area: emblem;
-  }
-  #education .details {
-    grid-area: details;
-    grid-template-areas:
-      "major"
-      "minor"
-      "gpa"
-      "date"
-      "location";
-    gap: 0.5rem;
-  }
-  #education .details .major {
-    grid-area: major;
-  }
-  #education .details .minor {
-    grid-area: minor;
-  }
-  #education .details .date {
-    grid-area: date;
-  }
-  #education .details .location {
-    grid-area: location;
-  }
-  #education .details .gpa {
-    grid-area: gpa;
-  }
-  #education .coursework {
-    grid-area: coursework;
-  }
-  /* Certifications **************************************************/
-  #certifications .container {
-    grid-template-areas:
-      "html"
-      "css"
-      "js"
-      "git"
-      "layout";
-  }
-  #html {
-    grid-area: html;
-  }
-  #css {
-    grid-area: css;
-  }
-  #js {
-    grid-area: js;
-  }
-  #git {
-    grid-area: git;
-  }
-  #layout {
-    grid-area: layout;
-  }
-  #certifications img {
-    width: min(100%, 400px);
-    height: auto;
-  }
-  #certifications .details {
-    grid-template-areas:
-      "issuer"
-      "date";
-  }
-  #certifications .details .issuer {
-    grid-area: issuer;
-  }
-  #certifications .details .date {
-    grid-area: date;
-  }
-  /* Skills **********************************************************/
-  #skills .container {
-    grid-template-areas:
-      "languages"
-      "tools";
-  }
-  #languages {
-    grid-area: languages;
-    grid-template-areas:
-      "languages languages"
-      "advanced basic";
-    grid-template-columns: 1fr 1fr;
-  }
-  #languages h3 {
-    grid-area: languages;
-  }
-  #advanced {
-    grid-area: advanced;
-  }
-  #basic {
-    grid-area: basic;
-  }
-  #tools {
-    grid-area: tools;
-  }
-  /* Experience ******************************************************/
-  #experience .container {
-    grid-template-areas:
-      "fri"
-      "nursing";
-  }
-  #fri {
-    grid-area: fri;
-  }
-  #nursing {
-    grid-area: nursing;
-  }
-  #experience img {
-    width: min(100%, 400px);
-    height: auto;
-  }
-  #experience .content {
-    grid-template-areas:
-      "position"
-      "details"
-      "responsibilities";
-  }
-  #experience h3 {
-    grid-area: position;
-  }
-  #experience .details {
-    grid-area: details;
-    grid-template-areas:
-      "employer"
-      "date"
-      "location";
-  }
-  #experience .details .employer {
-    grid-area: employer;
-  }
-  #experience .details .date {
-    grid-area: date;
-  }
-  #experience .details .location {
-    grid-area: location;
-  }
-  #experience .responsibilities {
-    grid-area: responsibilities;
-  }
-  /* Extracurriculars ************************************************/
-  #extracurriculars .container {
-    grid-template-areas:
-      "isss"
-      "apo";
-  }
-  #isss {
-    grid-area: isss;
-  }
-  #apo {
-    grid-area: apo;
-  }
-  #extracurriculars img {
-    width: min(100%, 400px);
-    height: auto;
-  }
-  #extracurriculars .content {
-    grid-template-areas:
-      "position"
-      "details"
-      "responsibilities";
-  }
-  #extracurriculars h3 {
-    grid-area: position;
-  }
-  #extracurriculars .details {
-    grid-area: details;
-    grid-template-areas:
-      "org"
-      "date"
-      "location";
-  }
-  #extracurriculars .details .org {
-    grid-area: org;
-  }
-  #extracurriculars .details .date {
-    grid-area: date;
-  }
-  #extracurriculars .details .location {
-    grid-area: location;
-  }
-  #extracurriculars .responsibilities {
-    grid-area: responsibilities;
-  }
-  /* Honors **********************************************************/
-  #honors .container {
-    grid-template-areas:
-      "uni"
-      "hlsr";
-  }
-  #uni {
-    grid-area: uni;
-  }
-  #hlsr {
-    grid-area: hlsr;
-  }
-  #honors .details {
-    grid-template-areas:
-      "issuer"
-      "date";
-  }
-  #honors .details .issuer {
-    grid-area: issuer;
-  }
-  #honors .details .date {
-    grid-area: date;
-  }
-  /* Footer **********************************************************/
-  footer {
-    margin: 3rem 0 0;
-    background: #efefef;
-    text-align: center;
-    border-top: thin solid gray;
-  }
-  address a {
-    display: inline-block;
+    border-radius: 0.5rem;
     padding: 0.75rem;
+    margin: 0 0.0625rem;
   }
-  /* Media Queries ***************************************************/
-  @media screen and (min-width: 415px) {
-    /* Header */
-    nav {
-      flex-direction: row;
-      align-items: center;
-    }
-    #hamburger {
-      display: none;
-    }
-    #navlinks {
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-end;
-    }
-    #navlinks a {
-      border-radius: 0.5rem;
-      padding: 0.75rem;
-      margin: 0 0.0625rem;
-    }
+}
+/* @media screen and (min-width: 482px) {
+  #education .details {
+    grid-template-areas:
+      "major major major minor minor minor"
+      "gpa gpa date date location location";
   }
-  /* @media screen and (min-width: 482px) {
-    #education .details {
-      grid-template-areas:
-        "major major major minor minor minor"
-        "gpa gpa date date location location";
-    }
-    #education .coursework ul {
-      column-count: 2;
-    }
-  } */
+  #education .coursework ul {
+    column-count: 2;
+  }
+} */
