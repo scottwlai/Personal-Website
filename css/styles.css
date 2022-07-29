@@ -332,7 +332,17 @@
     width: min(100%, 400px);
     height: auto;
   }
+  #extracurriculars .content {
+    grid-template-areas:
+      "position"
+      "details"
+      "responsibilities";
+  }
+  #extracurriculars h3 {
+    grid-area: position;
+  }
   #extracurriculars .details {
+    grid-area: details;
     grid-template-areas:
       "org"
       "date"
@@ -346,6 +356,9 @@
   }
   #extracurriculars .details .location {
     grid-area: location;
+  }
+  #extracurriculars .responsibilities {
+    grid-area: responsibilities;
   }
   /* Honors **********************************************************/
   #honors .container {
