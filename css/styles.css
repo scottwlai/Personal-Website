@@ -288,7 +288,17 @@
     width: min(100%, 400px);
     height: auto;
   }
+  #experience .content {
+    grid-template-areas:
+      "position"
+      "details"
+      "responsibilities";
+  }
+  #experience h3 {
+    grid-area: position;
+  }
   #experience .details {
+    grid-area: details;
     grid-template-areas:
       "employer"
       "date"
@@ -302,6 +312,9 @@
   }
   #experience .details .location {
     grid-area: location;
+  }
+  #experience .responsibilities {
+    grid-area: responsibilities;
   }
   /* Extracurriculars ************************************************/
   #extracurriculars .container {
