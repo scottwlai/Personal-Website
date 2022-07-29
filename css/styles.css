@@ -441,7 +441,7 @@ address a {
     margin: 0 0.0625rem;
   }
 }
-@media screen and (min-width: 482px) {
+@media screen and (min-width: 488px) {
   #education .details {
     grid-template-areas:
       "major major major minor minor minor"
