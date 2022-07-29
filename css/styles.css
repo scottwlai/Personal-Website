@@ -169,11 +169,19 @@
   #ut {
     grid-area: ut;
   }
+  #education .content {
+    grid-template-areas:
+      "emblem"
+      "details"
+      "coursework";
+  }
   #education img {
     width: min(100%, 400px);
     border-radius: 0;
+    grid-area: emblem;
   }
   #education .details {
+    grid-area: details;
     grid-template-areas:
       "major"
       "minor"
@@ -196,6 +204,9 @@
   }
   #education .details .gpa {
     grid-area: gpa;
+  }
+  #education .coursework {
+    grid-area: coursework;
   }
   /* Certifications **************************************************/
   #certifications .container {
