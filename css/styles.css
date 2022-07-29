@@ -108,12 +108,15 @@ header {
   margin: 0 0 3rem;
 }
 nav {
+  background-color: #efefef;
+  border-bottom: thin solid gray;
   margin: 0 0 3rem;
+}
+nav .container {
+  width: min(1200px, 90%);
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  background-color: #efefef;
-  border-bottom: thin solid gray;
   flex-direction: column;
 }
 h1 {
@@ -424,7 +427,7 @@ address a {
 /* Media Queries ***************************************************/
 @media screen and (min-width: 415px) {
   /* Header */
-  nav {
+  nav .container {
     flex-direction: row;
     align-items: center;
   }
