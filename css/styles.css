@@ -16,6 +16,13 @@ main {
   margin: 0 auto;
   display: grid;
   gap: 4rem;
+  grid-template-areas:
+    "education"
+    "certifications"
+    "skills"
+    "experience"
+    "extracurriculars"
+    "honors";
 }
 h2 {
   font-family: "Ubuntu", sans-serif;
@@ -160,6 +167,9 @@ header p {
   line-height: 1.25;
 }
 /* Education *******************************************************/
+#education {
+  grid-area: education;
+}
 #education .container {
   grid-template-areas:
     "ut";
@@ -207,6 +217,9 @@ header p {
   grid-area: coursework;
 }
 /* Certifications **************************************************/
+#certifications {
+  grid-area: certifications;
+}
 #certifications .container {
   grid-template-areas:
     "html"
@@ -246,6 +259,9 @@ header p {
   grid-area: date;
 }
 /* Skills **********************************************************/
+#skills {
+  grid-area: skills;
+}
 #skills .container {
   grid-template-areas:
     "languages"
@@ -271,6 +287,9 @@ header p {
   grid-area: tools;
 }
 /* Experience ******************************************************/
+#experience {
+  grid-area: experience;
+}
 #experience .container {
   grid-template-areas:
     "fri"
@@ -315,6 +334,9 @@ header p {
   grid-area: responsibilities;
 }
 /* Extracurriculars ************************************************/
+#extracurriculars {
+  grid-area: extracurriculars;
+}
 #extracurriculars .container {
   grid-template-areas:
     "isss"
@@ -359,6 +381,9 @@ header p {
   grid-area: responsibilities;
 }
 /* Honors **********************************************************/
+#honors {
+  grid-area: honors;
+}
 #honors .container {
   grid-template-areas:
     "uni"
