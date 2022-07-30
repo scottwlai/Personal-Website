@@ -427,16 +427,6 @@ address a {
   padding: 0.75rem;
 }
 /* Media Queries ***************************************************/
-@media screen and (min-width: 488px) {
-  #education .details {
-    grid-template-areas:
-      "major major major minor minor minor"
-      "gpa gpa date date location location";
-  }
-  #education .coursework ul {
-    column-count: 2;
-  }
-}
 @media screen and (min-width: 500px) {
   /* Header */
   h1 {
@@ -459,5 +449,14 @@ address a {
     border-radius: 0.5rem;
     padding: 0.75rem;
     margin: 0 0.0625rem;
+  }
+  /* Education */
+  #education .details {
+    grid-template-areas:
+      "major major major minor minor minor"
+      "gpa gpa date date location location";
+  }
+  #education .coursework ul {
+    column-count: 2;
   }
 }
