@@ -469,4 +469,13 @@ address a {
   #education .coursework ul {
     column-count: 2;
   }
+  /* Certifications */
+  #certifications .card {
+    grid-template-areas:
+      "img content";
+    grid-template-columns: 1fr 2fr;
+  }
+  #certifications img {
+    border-radius: 1.25rem 0 0 1.25rem;
+  }
 }
