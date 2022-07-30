@@ -252,9 +252,19 @@ header p {
 #layout {
   grid-area: layout;
 }
+#certifications .card {
+  display: grid;
+  grid-template-areas:
+    "img"
+    "content";
+}
 #certifications img {
   width: min(100%, 400px);
   height: auto;
+  grid-area: img;
+}
+#certifications .content {
+  grid-area: content;
 }
 #certifications .details {
   grid-template-areas:
