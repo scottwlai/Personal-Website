@@ -376,7 +376,7 @@ header p {
   grid-area: apo;
 }
 #extracurriculars img {
-  width: min(100%, 400px);
+  width: 100%;
   height: auto;
 }
 #extracurriculars .content {
