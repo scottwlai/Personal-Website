@@ -148,6 +148,9 @@ h1 {
 #navlinks.active {
   display: flex;
 }
+#navlinks li {
+  padding-right: 0;
+}
 #navlinks a {
   display: block;
   text-decoration: none;
