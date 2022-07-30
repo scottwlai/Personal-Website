@@ -514,4 +514,10 @@ address a {
   #extracurriculars img {
     border-radius: 1.25rem 0 0 1.25rem;
   }
+  /* Honors */
+  #honors .container {
+    grid-template-areas:
+      "uni hlsr";
+    grid-template-columns: 1fr 1fr;
+  }
 }
