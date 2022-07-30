@@ -506,4 +506,12 @@ address a {
     grid-template-columns: 3fr 4fr;
   }
   /* Extracurriculars */
+  #extracurriculars .card {
+    grid-template-areas:
+      "img content";
+    grid-template-columns: 3fr 4fr;
+  }
+  #extracurriculars img {
+    border-radius: 1.25rem 0 0 1.25rem;
+  }
 }
