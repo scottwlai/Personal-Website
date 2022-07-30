@@ -375,11 +375,19 @@ header p {
 #apo {
   grid-area: apo;
 }
+#extracurriculars .card {
+  display: grid;
+  grid-template-areas:
+    "img"
+    "content";
+}
 #extracurriculars img {
+  grid-area: img;
   width: 100%;
   height: auto;
 }
 #extracurriculars .content {
+  grid-area: content;
   grid-template-areas:
     "position"
     "details"
