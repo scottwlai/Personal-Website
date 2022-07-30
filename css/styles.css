@@ -259,7 +259,7 @@ header p {
     "content";
 }
 #certifications img {
-  width: min(100%, 400px);
+  width: 100%;
   height: auto;
   grid-area: img;
 }
