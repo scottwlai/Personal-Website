@@ -506,10 +506,4 @@ address a {
     grid-template-columns: 3fr 4fr;
   }
   /* Extracurriculars */
-  #extracurriculars .content {
-    grid-template-areas:
-      "position position"
-      "details responsibilities";
-    grid-template-columns: 1fr 1fr;
-  }
 }
