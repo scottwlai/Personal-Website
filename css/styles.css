@@ -441,6 +441,7 @@ address a {
   /* Header */
   h1 {
     padding-left: 0.75rem;
+    margin-left: 0.0625rem;
   }
   nav .container {
     flex-direction: row;
