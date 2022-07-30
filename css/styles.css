@@ -478,4 +478,8 @@ address a {
   #certifications img {
     border-radius: 1.25rem 0 0 1.25rem;
   }
+  /* Skills */
+  #tools ul {
+    column-count: 2;
+  }
 }
