@@ -320,11 +320,18 @@ header p {
 #nursing {
   grid-area: nursing;
 }
+#experience .card {
+  grid-template-areas:
+    "img"
+    "content";
+}
 #experience img {
   width: 100%;
   height: auto;
+  grid-area: img;
 }
 #experience .content {
+  grid-area: content;
   grid-template-areas:
     "position"
     "details"
