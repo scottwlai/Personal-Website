@@ -18,8 +18,8 @@ main {
   gap: 4rem;
   grid-template-areas:
     "education"
-    "certifications"
     "skills"
+    "certifications"
     "experience"
     "extracurriculars"
     "honors";
