@@ -9,7 +9,7 @@ html {
   color: #333;
   background: #f7f7f7;
   font-family: "Raleway", sans-serif;
-  font-size: clamp(1rem, 1vw, 1.5rem);
+  font-size: clamp(1rem, 1.25vw, 1.5rem);
 }
 main {
   width: min(1200px, 90%);
