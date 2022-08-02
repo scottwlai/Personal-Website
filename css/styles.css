@@ -165,7 +165,15 @@ header .container {
   width: min(1200px, 90%);
   margin: 0 auto;
 }
+header .content {
+  grid-template-areas:
+    "img"
+    "degree"
+    "concentration"
+    "location";
+}
 header img {
+  grid-area: img;
   display: block;
   margin: 1.5rem auto 0;
   border: thin solid green;
@@ -173,6 +181,15 @@ header img {
 }
 header p {
   line-height: 1.25;
+}
+header p:nth-of-type(1) {
+  grid-area: degree;
+}
+header p:nth-of-type(2) {
+  grid-area: concentration;
+}
+header p:nth-of-type(3) {
+  grid-area: location;
 }
 /* Education *******************************************************/
 #education {
@@ -519,5 +536,97 @@ address a {
     grid-template-areas:
       "uni hlsr";
     grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 801px) {
+  /* General */
+  main {
+    grid-template-areas:
+      "education education skills"
+      "certifications certifications certifications"
+      "experience experience experience"
+      "extracurriculars extracurriculars extracurriculars"
+      "honors honors honors";
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  /* Header */
+  header .content {
+    grid-template-areas:
+      "img degree"
+      "img concentration"
+      "img location";
+  }
+  /* Skills */
+  #tools ul {
+    column-count: 1;
+  }
+  /* Certifications */
+  #certifications .container {
+    grid-template-areas: none;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  #html {
+    grid-area: auto;
+  }
+  #css {
+    grid-area: auto;
+  }
+  #js {
+    grid-area: auto;
+  }
+  #git {
+    grid-area: auto;
+  }
+  #layout {
+    grid-area: auto;
+  }
+  #certifications .card {
+    grid-template-areas:
+      "img"
+      "content";
+    grid-template-columns: 1fr;
+  }
+  #certifications img {
+    border-radius: 1.25rem 1.25rem 0 0;
+  }
+  /* Experience */
+  #experience .container {
+    grid-template-areas:
+      "fri nursing";
+    grid-template-columns: 1fr 1fr;
+  }
+  #experience .card {
+    grid-template-areas:
+      "img"
+      "content";
+    grid-template-columns: 1fr;
+  }
+  #experience .content {
+    grid-template-areas:
+      "position"
+      "details"
+      "responsibilities";
+    grid-template-columns: 1fr;
+    }
+  #experience .details {
+    grid-template-areas:
+      "employer employer"
+      "date location";
+    grid-template-columns: 1fr 1fr;
+  }
+  /* Extracurriculars */
+  #extracurriculars .container {
+    grid-template-areas:
+      "isss apo";
+    grid-template-columns: 1fr 1fr;
+  }
+  #extracurriculars .card {
+    grid-template-areas:
+      "img"
+      "content";
+    grid-template-columns: 1fr;
+  }
+  #extracurriculars img {
+    border-radius: 1.25rem 1.25rem 0 0;
   }
 }
