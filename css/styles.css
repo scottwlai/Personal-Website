@@ -489,7 +489,7 @@ address a {
   #certifications .card {
     grid-template-areas:
       "img content";
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 3fr;
   }
   #certifications img {
     border-radius: 1.25rem 0 0 1.25rem;
