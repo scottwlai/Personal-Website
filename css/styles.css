@@ -453,7 +453,7 @@ address a {
   padding: 0.75rem;
 }
 /* Media Queries ***************************************************/
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 476px) {
   /* Header */
   h1 {
     padding-left: 0.75rem;
