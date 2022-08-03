@@ -15,7 +15,8 @@ main {
   width: min(1000px, 90%);
   margin: 0 auto;
   display: grid;
-  gap: 4rem;
+  row-gap: 4rem;
+  column-gap: 2.5rem;
   grid-template-areas:
     "education"
     "skills"
