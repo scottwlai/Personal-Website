@@ -114,7 +114,6 @@ nav {
 }
 nav .container {
   gap: 0;
-  width: min(1200px, 90%);
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -163,7 +162,7 @@ h1 {
   background-color: #ddd;
 }
 header .container {
-  width: min(1200px, 90%);
+  width: min(1000px, 90%);
   margin: 0 auto;
 }
 header .content {
