@@ -159,7 +159,7 @@ h1 {
   text-align: center;
 }
 #navlinks a:hover {
-  background-color: #ddd;
+  background-color: #d5d5d5;
 }
 header .container {
   width: min(1000px, 90%);
@@ -494,7 +494,7 @@ footer a {
   padding: 0.75rem 0.75rem 0.75rem 2rem;
 }
 footer a:hover {
-  background-color: #ddd;
+  background-color: #d5d5d5;
 }
 /* Media Queries ***************************************************/
 @media screen and (min-width: 476px) {
