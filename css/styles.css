@@ -461,13 +461,40 @@ header p:nth-of-type(3) {
 /* Footer **********************************************************/
 footer {
   margin: 3rem 0 0;
+  padding: 1rem 0;
   background: #efefef;
   text-align: center;
   border-top: thin solid gray;
 }
-address a {
+footer ul {
+  width: min(1000px, 90%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+    "linkedin"
+    "github"
+    "email"
+    "phone";
+}
+footer li:nth-of-type(1) {
+  grid-area: linkedin;
+}
+footer li:nth-of-type(2) {
+  grid-area: github;
+}
+footer li:nth-of-type(3) {
+  grid-area: email;
+}
+footer li:nth-of-type(4) {
+  grid-area: phone;
+}
+footer a {
+  border-radius: 0.5rem;
   display: inline-block;
-  padding: 0.75rem;
+  padding: 0.75rem 0.75rem 0.75rem 2rem;
+}
+footer a:hover {
+  background-color: #ddd;
 }
 /* Media Queries ***************************************************/
 @media screen and (min-width: 476px) {
@@ -536,6 +563,12 @@ address a {
     grid-template-areas:
       "uni hlsr";
     grid-template-columns: 1fr 1fr;
+  }
+  /* Footer */
+  footer ul {
+    grid-template-areas:
+      "linkedin email"
+      "github phone";
   }
 }
 @media screen and (min-width: 801px) {
@@ -628,5 +661,10 @@ address a {
   }
   #extracurriculars img {
     border-radius: 1.25rem 1.25rem 0 0;
+  }
+  /* Footer */
+  footer ul {
+    grid-template-areas:
+      "linkedin github email phone";
   }
 }
