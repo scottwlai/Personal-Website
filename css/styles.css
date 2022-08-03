@@ -489,6 +489,9 @@ footer li:nth-of-type(4) {
   grid-area: phone;
 }
 footer a {
+  text-decoration: none;
+  font-style: normal;
+  color: #333;
   border-radius: 0.5rem;
   display: inline-block;
   padding: 0.75rem 0.75rem 0.75rem 2rem;
