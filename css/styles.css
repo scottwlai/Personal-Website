@@ -108,7 +108,7 @@ header {
   margin: 0 0 3rem;
 }
 nav {
-  background-color: #efefef;
+  background-color: #e6e6e6;
   border-bottom: thin solid gray;
   margin: 0 0 3rem;
 }
@@ -462,7 +462,7 @@ header p:nth-of-type(3) {
 footer {
   margin: 3rem 0 0;
   padding: 1rem 0;
-  background: #efefef;
+  background-color: #e6e6e6;
   text-align: center;
   border-top: thin solid gray;
 }
