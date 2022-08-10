@@ -592,6 +592,11 @@ footer a:hover {
       "img concentration"
       "img location";
   }
+  /* Education */
+  #education {
+    display: grid;
+    grid-template-rows: auto 1fr;
+  }
   /* Skills */
   #tools ul {
     column-count: 1;
