@@ -125,7 +125,7 @@ h1 {
   font-size: 2.25rem;
   letter-spacing: -0.125rem;
 }
-#hamburger {
+/* #hamburger {
   position: absolute;
   top: 0.625rem;
   right: 1rem;
@@ -140,24 +140,28 @@ h1 {
   width: 100%;
   background-color: #333;
   border-radius: 0.625rem;
-}
+} */
 #navlinks {
-  display: none;
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
   width: 100%;
 }
-#navlinks.active {
+/* #navlinks.active {
   display: flex;
-}
+} */
 #navlinks li {
   padding-right: 0;
 }
 #navlinks a {
+  border-radius: 0.5rem;
   display: block;
   text-decoration: none;
   padding: 0.5rem;
   color: #333;
   text-align: center;
+  padding: 0.75rem 0.75rem 0.75rem 2rem;
+  margin: 0 0.0625rem;
 }
 #navlinks a:hover {
   background-color: #d5d5d5;
@@ -543,19 +547,6 @@ footer a:hover {
   nav .container {
     flex-direction: row;
     align-items: center;
-  }
-  #hamburger {
-    display: none;
-  }
-  #navlinks {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-  }
-  #navlinks a {
-    border-radius: 0.5rem;
-    padding: 0.75rem;
-    margin: 0 0.0625rem;
   }
   /* Education */
   #education .details {
