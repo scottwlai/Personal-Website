@@ -307,14 +307,14 @@ header p:nth-of-type(3) {
   grid-area: languages;
   grid-template-areas:
     "languages languages"
-    "advanced basic";
+    "experienced basic";
   grid-template-columns: 1fr 1fr;
 }
 #languages h3 {
   grid-area: languages;
 }
-#advanced {
-  grid-area: advanced;
+#experienced {
+  grid-area: experienced;
 }
 #basic {
   grid-area: basic;
