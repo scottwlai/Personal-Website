@@ -247,6 +247,12 @@ header p:nth-of-type(3) {
 #projects {
   grid-area: projects;
 }
+#projects .container {
+  grid-template-areas:
+    "website"
+    "explorer"
+    "predictor";
+}
 #projects .card {
   display: grid;
   grid-template-areas:
@@ -263,6 +269,10 @@ header p:nth-of-type(3) {
 }
 #projects .content {
   grid-area: content;
+  grid-template-areas:
+    "project"
+    "details"
+    "responsibilities";
 }
 #projects .details {
   grid-area: details;
@@ -563,6 +573,9 @@ footer a:hover {
       "details responsibilities";
     grid-template-columns: 1fr 2fr;
   }
+  #projects img {
+    border-radius: 1.25rem 1.25rem 0 0;
+  }
   /* Certifications */
   #certifications .card {
     grid-template-areas:
@@ -650,6 +663,9 @@ footer a:hover {
     grid-template-areas:
       "img content";
     grid-template-columns: 1fr 2fr;
+  }
+  #projects img {
+    border-radius: 1.25rem 0 0 1.25rem;
   }
   #projects .content {
     grid-template-areas:
