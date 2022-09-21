@@ -247,6 +247,19 @@ header p:nth-of-type(3) {
 #projects {
   grid-area: projects;
 }
+#projects .card {
+  display: grid;
+  grid-template-areas:
+    "img content";
+}
+#project img {
+  width: 100%;
+  height: auto;
+  grid-area: img;
+}
+#project .content {
+  grid-area: content;
+}
 /* Certifications **************************************************/
 #certifications {
   grid-area: certifications;
