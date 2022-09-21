@@ -23,7 +23,7 @@ main {
     "projects"
     "certifications"
     "experience"
-    "extracurriculars"
+    /* "extracurriculars" */
     "honors";
 }
 h2 {
@@ -383,7 +383,7 @@ header p:nth-of-type(3) {
   grid-area: responsibilities;
 }
 /* Extracurriculars ************************************************/
-#extracurriculars {
+/* #extracurriculars {
   grid-area: extracurriculars;
 }
 #extracurriculars .container {
@@ -436,7 +436,7 @@ header p:nth-of-type(3) {
 }
 #extracurriculars .responsibilities {
   grid-area: responsibilities;
-}
+} */
 /* Honors **********************************************************/
 #honors {
   grid-area: honors;
@@ -558,14 +558,14 @@ footer a:hover {
     grid-template-columns: 3fr 4fr;
   }
   /* Extracurriculars */
-  #extracurriculars .card {
+  /* #extracurriculars .card {
     grid-template-areas:
       "img content";
     grid-template-columns: 3fr 4fr;
   }
   #extracurriculars img {
     border-radius: 1.25rem 0 0 1.25rem;
-  }
+  } */
   /* Honors */
   #honors .container {
     grid-template-areas:
@@ -587,7 +587,7 @@ footer a:hover {
       "projects projects projects"
       "certifications certifications certifications"
       "experience experience experience"
-      "extracurriculars extracurriculars extracurriculars"
+      /* "extracurriculars extracurriculars extracurriculars" */
       "honors honors honors";
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -674,7 +674,7 @@ footer a:hover {
     grid-template-columns: 1fr 1fr;
   }
   /* Extracurriculars */
-  #extracurriculars .container {
+  /* #extracurriculars .container {
     grid-template-areas:
       "isss apo";
     grid-template-columns: 1fr 1fr;
@@ -687,7 +687,7 @@ footer a:hover {
   }
   #extracurriculars img {
     border-radius: 1.25rem 1.25rem 0 0;
-  }
+  } */
   /* Footer */
   footer ul {
     grid-template-areas:
