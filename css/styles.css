@@ -307,7 +307,7 @@ header p:nth-of-type(3) {
   grid-area: languages;
   grid-template-areas:
     "languages languages"
-    "experienced basic";
+    "experienced familiar";
   grid-template-columns: 1fr 1fr;
 }
 #languages h3 {
@@ -316,8 +316,8 @@ header p:nth-of-type(3) {
 #experienced {
   grid-area: experienced;
 }
-#basic {
-  grid-area: basic;
+#familiar {
+  grid-area: familiar;
 }
 #tools {
   grid-area: tools;
