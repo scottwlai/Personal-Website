@@ -20,6 +20,7 @@ main {
   grid-template-areas:
     "education"
     "skills"
+    "projects"
     "certifications"
     "experience"
     "extracurriculars"
@@ -241,6 +242,10 @@ header p:nth-of-type(3) {
 }
 #education .coursework {
   grid-area: coursework;
+}
+/* Projects ********************************************************/
+#projects {
+  grid-area: projects;
 }
 /* Certifications **************************************************/
 #certifications {
@@ -579,6 +584,7 @@ footer a:hover {
   main {
     grid-template-areas:
       "education education skills"
+      "projects projects projects"
       "certifications certifications certifications"
       "experience experience experience"
       "extracurriculars extracurriculars extracurriculars"
