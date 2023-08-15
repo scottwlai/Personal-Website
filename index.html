@@ -12,7 +12,7 @@
     <script src="js/script.js" defer></script>
     <meta name="author" content="Scott Lai">
     <meta name="description" content="Hi, my name's Scott, and I'm a
-        junior studying computer science and business at UT Austin.">
+        senior studying computer science and business at UT Austin.">
   </head>
   <body>
     <header>
@@ -46,7 +46,7 @@
             height="200px" srcset="">
         <p>
           Hi, my name's <span class="bold">Scott</span>, and I'm a
-          <span class="bold">junior</span> studying <span
+          <span class="bold">senior</span> studying <span
           class="bold capital">computer science</span> and <span
           class="bold capital">business</span> at <span
           class="bold">UT Austin</span>.
@@ -60,8 +60,8 @@
         <p>
           I'm a native <span class="bold">Houstonian</span> and am
           currently based in <span class="bold">Austin</span>.
-          Outside of school, I enjoy gaming, coding, and video
-          editing.
+          Outside of school, I enjoy gaming, kickboxing, video
+          editing, and playing piano.
         </p>
       </div>
     </header>
@@ -90,7 +90,7 @@
                 <span class="material-symbols-rounded">
                   workspace_premium
                 </span>
-                3.6518 GPA
+                3.6542 GPA
               </li>
               <li class="date">
                 <span class="material-symbols-rounded">
@@ -111,15 +111,15 @@
               <ul>
                 <li>Intro Programming</li>
                 <li>Data Structures</li>
+                <li>Algorithms & Complexity</li>
                 <li>Computer Architecture</li>
                 <li>Operating Systems</li>
-                <li>Software Engineering</li>
-                <li>Prin. of Machine Learning</li>
                 <li>Autonomous Robots</li>
                 <li>Progamming for Performance</li>
-                <li>Multivariable Calculus</li>
+                <li>Prin. of Machine Learning</li>
+                <li>Software Engineering</li>
+                <li>Data Management</li>
                 <li>Discrete Math</li>
-                <li>Probability & Stats</li>
                 <li>Linear Algebra</li>
               </ul>
             </section>
@@ -137,16 +137,17 @@
               <ul>
                 <li>Java</li>
                 <li>Python</li>
-                <li>C</li>
                 <li>C++</li>
                 <li>HTML</li>
                 <li>CSS</li>
+                <li>JavaScript</li>
               </ul>
             </section>
             <section id="familiar">
               <h4>Familiar</h4>
               <ul>
-                <li>JavaScript</li>
+                <li>C</li>
+                <li>TypeScript</li>
                 <li>SQL</li>
                 <li>LaTeX</li>
               </ul>
@@ -157,13 +158,20 @@
             <ul>
               <li>React</li>
               <li>Flask</li>
-              <li>PostgreSQL</li>
               <li>SQLAlchemy</li>
+              <li>PostgreSQL</li>
+              <li>MySQL</li>
+              <li>MongoDB</li>
+              <li>Neo4j</li>
               <li>Git</li>
-              <li>VS Code</li>
-              <li>Eclipse</li>
               <li>Docker</li>
+              <li>AWS Amplify</li>
+              <li>AWS Elastic Beanstalk</li>
+              <li>AWS EC2</li>
               <li>Adobe Premiere Pro</li>
+              <li>Adobe After Effects</li>
+              <li>Adobe Photoshop</li>
+              <li>Adobe Illustrator</li>
               <li>Sony Vegas Pro</li>
             </ul>
           </section>
@@ -173,6 +181,44 @@
       <section id="projects">
         <h2>Projects</h2>
         <div class="container">
+          <section class="card" id="company">
+            <img src="images/toro.png"
+                alt="homepage of a steel distribution company" width="300px"
+                height="232px">
+            <div class="content">
+              <h3>Company Website</h3>
+              <ul class="no-bullets details">
+                <li class="italic position">
+                  <span class="material-symbols-rounded">
+                    person
+                  </span>
+                  Front End</li>
+                <li class="date">
+                  <span class="material-symbols-rounded">
+                    calendar_month
+                  </span>
+                  <time datetime="2022-05">Jul 2023</time> -
+                  <time datetime="2022-09">Aug 2023</time>
+                </li>
+                <li class="location">
+                  <span class="material-symbols-rounded">
+                    location_on
+                  </span>
+                  Houston, TX
+                </li>
+              </ul>
+              <ul class="responsibilities">
+                <li>Built a prototype website for a potential client,
+                  Toro Steel and Fittings LLC
+                </li>
+                <li>Prototype temporarily hosted at
+                  <a href="https://main.d1nh3pu51v0msd.amplifyapp.com">
+                    main.d1nh3pu51v0msd.amplifyapp.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
           <section class="card" id="idb">
             <img src="images/idb-400.jpeg"
                 alt="homepage of an online species database" width="300px"
@@ -184,7 +230,7 @@
                   <span class="material-symbols-rounded">
                     person
                   </span>
-                  Full-Stack</li>
+                  Full Stack</li>
                 <li class="date">
                   <span class="material-symbols-rounded">
                     calendar_month
@@ -200,10 +246,11 @@
                 </li>
               </ul>
               <ul class="responsibilities">
-                <li>Developed a dynamic website with a RESTful API &
-                    SQL database back-end</li>
+                <li>Developed a dynamic website with a RESTful API
+                    using React & Flask to display info
+                    on endangered species</li>
                 <li>Implemented back-end searching, sorting, &
-                    filtering of data using SQL queries</li>
+                    filtering of species data using SQLAlchemy</li>
               </ul>
             </div>
           </section>
@@ -218,7 +265,7 @@
                   <span class="material-symbols-rounded">
                     person
                   </span>
-                  Front-End</li>
+                  Front End</li>
                 <li class="date">
                   <span class="material-symbols-rounded">
                     calendar_month
@@ -234,11 +281,14 @@
                 </li>
               </ul>
               <ul class="responsibilities">
-                <li>Created a student homepage using HTML, CSS, &
-                    JavaScript on the cs.utexas.edu domain</li>
-                <li>Added media queries & alternative media for
-                    accessibilty; site is responsive to all
-                    devices</li>
+                <li>Created a static website using HTML, CSS, &
+                    JavaScript hosted at
+                  <a href="https://cs.utexas.edu/~scottlai">
+                    cs.utexas.edu/~scottlai
+                  </a>
+                </li>
+                <li>Added media queries & accessibility features;
+                    site is responsive to all devices</li>
               </ul>
             </div>
           </section>
@@ -274,7 +324,7 @@
                     system navigable by keyboard input</li>
                 <li>Organized project information & presented
                     findings; our presentation scored 4.4% higher
-                    than the class average</li>
+                    than the average</li>
               </ul>
             </div>
           </section>
@@ -306,12 +356,10 @@
                 </li>
               </ul>
               <ul class="responsibilities">
-                <li>Developed a position prediction algorithm for
-                    data captured using an Azure Kinect DK depth
-                    sensor; analyzed results to calculate error &
-                    assess the accuracy of future algorithms</li>
-                <li>Presented findings in brief scientific talk &
-                    reserach paper</li>
+                <li>Developed a position prediction algorithm
+                    using Azure Kinect depth sensor data</li>
+                <li>Analyzed results & resented findings in
+                    a scientific talk & reserach paper</li>
               </ul>
             </div>
           </section>
@@ -458,6 +506,34 @@
                     calendar_month
                   </span>
                   <time datetime="2022-06">Jul 2022</time>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="card" id="react">
+            <img src="images/react.jpeg"
+                alt="React course certificate"
+                width="300px" height="232px">
+            <div class="content">
+              <h3>
+                <a href="https://linkedin.com/learning/certificates/c28df93f4588d08d65c654581e91cdc59e3240a34a542dc3eab523968612f721?u=36306084"
+                    target="_blank">
+                  React.js Essential Training
+                </a>
+              </h3>
+              <ul class="no-bullets details">
+                <li class="italic issuer">
+                  <span class="material-symbols-rounded">
+                    verified
+                  </span>
+                  LinkedIn Learning
+                </li>
+                <li class="date">
+                  <span class="material-symbols-rounded">
+                    calendar_month
+                  </span>
+                  <time datetime="2022-06">May 2023</time>
                 </li>
               </ul>
             </div>

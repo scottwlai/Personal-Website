@@ -253,6 +253,8 @@ header p:nth-of-type(3) {
 }
 #projects .container {
   grid-template-areas:
+    "company"
+    "idb"
     "website"
     "explorer"
     "predictor";
@@ -294,7 +296,8 @@ header p:nth-of-type(3) {
     "css"
     "js"
     "git"
-    "layout";
+    "layout"
+    "react";
 }
 #html {
   grid-area: html;
@@ -310,6 +313,9 @@ header p:nth-of-type(3) {
 }
 #layout {
   grid-area: layout;
+}
+#react {
+  grid-area: react;
 }
 #certifications .card {
   display: grid;
